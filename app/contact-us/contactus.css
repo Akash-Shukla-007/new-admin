@@ -1,0 +1,33 @@
+.contact-us-cont{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    gap: 30px;
+}
+.contact-us-img-cont{
+    display: flex;
+}
+.contact-us-image{
+    display: flex;
+  justify-content: flex-end;
+
+}
+.contact-us-image img{
+    margin-top: -150px;
+    width: 250px;
+}
+.max-width-900{
+    width: min(100%,800px);
+    /* background-color: red; */
+}
+@media (max-width:900px){
+    .contact-us-image{
+        display: none;    
+    }
+}
+@media (max-width:700px){
+    .media-set-700{
+        flex-direction: column;
+        align-items: center;
+    }
+}   

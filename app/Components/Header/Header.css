@@ -1,0 +1,44 @@
+.header-root {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+
+.header-root p {
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-gradient{
+    background:linear-gradient(to right, #e9f8ff9b, #90b2d8a0, #c1e3ff9c);
+    -webkit-box-shadow:0px 0px 30px 9px rgba(112,138,255,0.72);
+    -moz-box-shadow: 0px 0px 30px 9px rgba(112,138,255,0.72);
+    box-shadow: 0px 0px 30px 9px rgba(112,138,255,0.72);
+}
+
+
+.viby-main-header-text-container h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+.viby-main-header-text-container h2 {
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+@media (max-width:768px){
+    .viby-main-header-text-container h1{
+        font-size: 50px;
+    }
+    .viby-main-header-text-container h2{
+        font-size: 26px;
+    }
+    .coming-soon-image{
+        width: 180px;
+    }
+}

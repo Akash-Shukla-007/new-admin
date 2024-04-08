@@ -1,0 +1,14 @@
+.contact-us-card{
+    display: flex;
+    width: min(100%,450px);
+    min-height: 200px;
+    border-right: 30px solid rgb(0, 166, 255);
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgb(122, 151, 255);
+}
+.contact-us-card-text-conetent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}

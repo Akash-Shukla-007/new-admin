@@ -1,0 +1,108 @@
+
+.viby-brand-image{
+    object-position: center;
+    object-fit: contain;
+    filter: drop-shadow(0px 0px 30px rgba(112,138,255,0.72));
+}
+.coming-soon-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.coming-soon-image{
+    width: 250px;
+    object-fit: contain;
+}
+
+.three-sections{
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    gap: 25px;
+    padding: 50px 0px;
+}
+.three-sections img{
+    width: 40%;
+    border-radius: 20px;
+    height: 350px;
+    object-fit: cover;
+}
+.three-sections-image{
+    border: 1px solid white;
+    -webkit-box-shadow:0px 0px 30px 9px rgba(112,138,255,0.72);
+    -moz-box-shadow: 0px 0px 30px 9px rgba(112,138,255,0.72);
+    box-shadow: 0px 0px 30px 9px rgba(112,138,255,0.72);
+}
+.three-sections h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.three-sections p{
+    font-size: 26px;
+
+}
+.bbb{
+    filter: drop-shadow(1px 1px 5px rgb(255, 255, 255));
+}
+.image-card-container{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 56, 73);
+    padding: 30px 20px;
+    border-radius: 10px;
+    -webkit-box-shadow:0px 0px 23px 5px rgba(112,138,255,0.72);
+    -moz-box-shadow: 0px 0px 23px 5px rgba(112,138,255,0.72);
+    box-shadow: 0px 0px 23px 5px rgba(112,138,255,0.72);
+
+}
+
+@media (max-width: 900px) {
+    .three-sections h2{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .three-sections p{
+        font-size: 20px;
+    
+    }
+}
+
+@media (max-width: 700px) {
+    section{
+        padding: 40px 20px;
+    }
+    .three-sections{
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.436);
+        padding: 40px 20px;
+        border-radius: 15px ;
+    }
+    .three-sections h2{
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .three-sections {
+        font-size: 20px;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .three-sections p{
+        line-height: 25px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .three-sections img{
+        width: 100%;
+        border-radius: 20px;
+        height: 350px;
+        object-fit: cover;
+    }
+    .coming-soon-image{
+        width: 175px;
+    }
+}
